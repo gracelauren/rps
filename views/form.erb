@@ -1,0 +1,46 @@
+<h1>Select what each player wishes to use for battle.
+  If one player, select the computer image to battle against the computer.</h1>
+<form action ='/rps'>
+  <div class="row">
+  <div class ="form-group col-md-6">
+    <h2> Player One </h2>
+    <label for='rock1'>
+      <img src ='rock.png' alt = 'This is a picture of a rock.'>
+      <input type="radio" id='rock1' name="player1" value="Rock">
+    </label>
+    <br>
+    <label for='paper1'>
+      <img src ='paper.jpg' alt = 'This is a picture of a piece of paper.'>
+      <input type="radio" id="paper1" name="player1" value="Paper">
+    </label>
+    <br>
+    <label for='scissor1'>
+      <img src ='scissors.jpg' alt = 'This is a picture of scissors.'>
+      <input type="radio" id="scissor1" name="player1" value="Scissor">
+    </label>
+  </div>
+  <div class ="form-group col-md-6">
+    <h2> Player Two </h2>
+    <label for='rock2'>
+      <img src ='rock.png' alt = 'This is a picture of a rock.'>
+      <input type="radio" id="rock2" name="player2" value="Rock">
+    </label>
+    <br>
+    <label for='paper2'>
+      <img src ='paper.jpg' alt = 'This is a picture of a piece of paper.'>
+      <input type="radio" id="paper2" name="player2" value="Paper">
+    </label>
+    <br>
+    <label for='scissor2'>
+      <img src ='scissors.jpg' alt = 'This is a picture of scissors.'>
+      <input type="radio" id="scissor2" name="player2" value="Scissor">
+    </label>
+    <br>
+    <label for='computer'>
+      <img src ='computer.jpg' alt = 'This is a picture of a computer.'>
+      <input type="radio" id="computer" name="player2" value="Random">
+    </label>
+  </div>
+</div>
+    <button type= "submit" class= "btn-success">Battle</button>
+</form>
